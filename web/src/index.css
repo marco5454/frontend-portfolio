@@ -134,3 +134,163 @@
   font-size: .8rem;
   font-style: italic;
 }
+
+/* media query */
+@media (max-width: 600px){
+  .nav-bar-main nav{
+    padding: 20px;
+  }
+
+  .home-wrapper{
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .phto-wrapper{
+    height: 40%;
+  }
+
+  .role-wrapper{
+    height: 40%;
+    width: 90%;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .role-wrapper h1{
+    letter-spacing: 0;
+    box-shadow: -1px -8px 7px -3px rgba(0,0,0,0.35);
+-webkit-box-shadow: -1px -8px 7px -3px rgba(0,0,0,0.35);
+-moz-box-shadow: -1px -8px 7px -3px rgba(0,0,0,0.35);
+  }
+
+  .phto-holder{
+    width: 400px;
+    height: 400px;
+  }
+
+  .role-wrapper button{
+    width: 300px;
+    height: 70px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+
+  .footer-content{
+    width: 90%;
+  }
+
+  .footer-content p{
+    font-size: .8rem;
+  }
+
+  .footer-credits p{
+    font-size: .6rem;
+  }
+}
+
+@media (max-width: 768px){
+  .nav-bar-main nav{
+    padding: 20px;
+  }
+
+  .home-wrapper{
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .phto-wrapper{
+    height: 40%;
+  }
+
+  .role-wrapper{
+    height: 40%;
+    width: 90%;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .role-wrapper h1{
+    letter-spacing: 0;
+    box-shadow: -1px -8px 7px -3px rgba(0,0,0,0.35);
+-webkit-box-shadow: -1px -8px 7px -3px rgba(0,0,0,0.35);
+-moz-box-shadow: -1px -8px 7px -3px rgba(0,0,0,0.35);
+  }
+
+  .phto-holder{
+    width: 400px;
+    height: 400px;
+  }
+
+  .role-wrapper button{
+    width: 300px;
+    height: 70px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+
+  .footer-content{
+    width: 90%;
+  }
+
+  .footer-content p{
+    font-size: .8rem;
+  }
+
+  .footer-credits p{
+    font-size: .6rem;
+  }
+}
+
+@media (max-width: 1025px){
+  .nav-bar-main nav{
+    padding: 20px;
+  }
+
+  .home-wrapper{
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .phto-wrapper{
+    height: 40%;
+  }
+
+  .role-wrapper{
+    height: 40%;
+    width: 90%;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .role-wrapper h1{
+    letter-spacing: 0;
+    box-shadow: -1px -8px 7px -3px rgba(0,0,0,0.35);
+-webkit-box-shadow: -1px -8px 7px -3px rgba(0,0,0,0.35);
+-moz-box-shadow: -1px -8px 7px -3px rgba(0,0,0,0.35);
+  }
+
+  .phto-holder{
+    width: 400px;
+    height: 400px;
+  }
+
+  .role-wrapper button{
+    width: 300px;
+    height: 70px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+
+  .footer-content{
+    width: 90%;
+  }
+
+  .footer-content p{
+    font-size: .8rem;
+  }
+
+  .footer-credits p{
+    font-size: .6rem;
+  }
+}
